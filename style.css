@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #9fbf86;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: solid 2px rgb(59, 58, 58);
+    box-shadow: 0px -8px 10px lightgrey;
+}
+
+header>h2 {
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(223, 170, 46);
+}
+
+header>p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.graph-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+button {
+    margin: 20px 10px;
+    width: 170px;
+    height: 30px;
+    background-color: rgb(223, 170, 46);
+    border-style: none;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+button:hover {
+    scale: 1.1;
+    color: white;
+}
+
+button:focus {
+    color: white;
+}
+
+.graph-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 2px rgb(59, 58, 58);
+}
+
+.graphs {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.names>p {
+    margin: 15px;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.stats>p {
+    margin: 15px;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

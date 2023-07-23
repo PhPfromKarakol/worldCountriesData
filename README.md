@@ -1,1 +1,1 @@
-[link]{https://phpfromkarakol.github.io/worldCountriesData/}
+[link](https://phpfromkarakol.github.io/worldCountriesData/)
